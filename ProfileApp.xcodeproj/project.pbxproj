@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		841FCBAF234245E0002ABD20 /* avatar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = avatar.jpg; sourceTree = SOURCE_ROOT; };
+		841FCBAF234245E0002ABD20 /* avatar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = avatar.jpg; path = ProfileApp/Resources/avatar.jpg; sourceTree = SOURCE_ROOT; };
 		84BFEAB9233F6885005E47E1 /* ProfileApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProfileApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84BFEABC233F6885005E47E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84BFEABE233F6885005E47E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +37,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		844C9059234253BA004D6022 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				84BFEAC5233F6887005E47E1 /* LaunchScreen.storyboard */,
+				84BFEAC0233F6885005E47E1 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		844C905A234253F3004D6022 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				84BFEABE233F6885005E47E1 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		844C905B23425410004D6022 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				841FCBAF234245E0002ABD20 /* avatar.jpg */,
+				84BFEAC3233F6887005E47E1 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		844C905C23425482004D6022 /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				84BFEAC8233F6887005E47E1 /* Info.plist */,
+				84BFEABC233F6885005E47E1 /* AppDelegate.swift */,
+			);
+			path = Supports;
+			sourceTree = "<group>";
+		};
+		844C905E234254FF004D6022 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		84BFEAB0233F6885005E47E1 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +98,11 @@
 		84BFEABB233F6885005E47E1 /* ProfileApp */ = {
 			isa = PBXGroup;
 			children = (
-				84BFEABC233F6885005E47E1 /* AppDelegate.swift */,
-				84BFEABE233F6885005E47E1 /* ViewController.swift */,
-				84BFEAC0233F6885005E47E1 /* Main.storyboard */,
-				841FCBAF234245E0002ABD20 /* avatar.jpg */,
-				84BFEAC3233F6887005E47E1 /* Assets.xcassets */,
-				84BFEAC5233F6887005E47E1 /* LaunchScreen.storyboard */,
-				84BFEAC8233F6887005E47E1 /* Info.plist */,
+				844C905E234254FF004D6022 /* Models */,
+				844C905A234253F3004D6022 /* ViewControllers */,
+				844C9059234253BA004D6022 /* Storyboards */,
+				844C905C23425482004D6022 /* Supports */,
+				844C905B23425410004D6022 /* Resources */,
 			);
 			path = ProfileApp;
 			sourceTree = "<group>";
@@ -287,7 +327,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ProfileApp/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ProfileApp/Supports/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,7 +344,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ProfileApp/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ProfileApp/Supports/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
