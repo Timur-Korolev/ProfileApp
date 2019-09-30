@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		841FCBB0234245E0002ABD20 /* avatar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 841FCBAF234245E0002ABD20 /* avatar.jpg */; };
 		84BFEABD233F6885005E47E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BFEABC233F6885005E47E1 /* AppDelegate.swift */; };
 		84BFEABF233F6885005E47E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BFEABE233F6885005E47E1 /* ViewController.swift */; };
 		84BFEAC2233F6885005E47E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BFEAC0233F6885005E47E1 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		841FCBAF234245E0002ABD20 /* avatar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = avatar.jpg; sourceTree = SOURCE_ROOT; };
 		84BFEAB9233F6885005E47E1 /* ProfileApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProfileApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84BFEABC233F6885005E47E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84BFEABE233F6885005E47E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 				84BFEABC233F6885005E47E1 /* AppDelegate.swift */,
 				84BFEABE233F6885005E47E1 /* ViewController.swift */,
 				84BFEAC0233F6885005E47E1 /* Main.storyboard */,
+				841FCBAF234245E0002ABD20 /* avatar.jpg */,
 				84BFEAC3233F6887005E47E1 /* Assets.xcassets */,
 				84BFEAC5233F6887005E47E1 /* LaunchScreen.storyboard */,
 				84BFEAC8233F6887005E47E1 /* Info.plist */,
@@ -122,6 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				841FCBB0234245E0002ABD20 /* avatar.jpg in Resources */,
 				84BFEAC7233F6887005E47E1 /* LaunchScreen.storyboard in Resources */,
 				84BFEAC4233F6887005E47E1 /* Assets.xcassets in Resources */,
 				84BFEAC2233F6885005E47E1 /* Main.storyboard in Resources */,
